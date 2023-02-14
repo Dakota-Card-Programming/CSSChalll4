@@ -1,0 +1,41 @@
+body {
+    color: #333;
+}
+
+header {
+    width: 90%;
+    height: auto;
+    background-image: url(/img/photo-1509817177816-ca503fa03f60.avif);
+}
+
+.wrapper {
+    background-color: #caf0f8;
+    width: 80vw;
+    border: 2px dotted #0077b6;
+}
+
+.wrapper main img {
+    filter: brightness(.4);
+    filter: contrast(250%);
+    filter: saturate(4);
+    max-width: 100%;
+    height: auto;
+}
+
+p {
+    color: black;
+}
+
+li {
+    margin-left: 2em;
+}
+
+li:nth-of-type(odd) {
+    font-weight: bolder;
+}
+
+
+main > section > img {
+    width: 30%;
+}
+
