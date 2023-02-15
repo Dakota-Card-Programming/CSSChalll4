@@ -2,23 +2,35 @@ body {
     color: #333;
 }
 
-header {
-    width: 90%;
-    height: auto;
-    background-image: url(/img/photo-1509817177816-ca503fa03f60.avif);
-}
-
 .wrapper {
     background-color: #caf0f8;
     width: 80vw;
     border: 2px dotted #0077b6;
 }
 
+.wrapper header {
+    position: relative;
+    height: 50vh;
+    width: 90%;
+    background-image: url(/img/photo-1509817177816-ca503fa03f60.avif);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    text-align: center;
+    color: aliceblue;
+    background-color: violet;
+}
+
+.wrapper header h1 {
+    position: relative;
+    top: 4.5em;
+}
+
 .wrapper main img {
     filter: brightness(.4);
     filter: contrast(250%);
     filter: saturate(4);
-    max-width: 100%;
+    max-width: 25%;
     height: auto;
 }
 
@@ -33,9 +45,3 @@ li {
 li:nth-of-type(odd) {
     font-weight: bolder;
 }
-
-
-main > section > img {
-    width: 30%;
-}
-
